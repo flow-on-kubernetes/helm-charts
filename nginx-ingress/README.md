@@ -1,12 +1,3 @@
-# DEPRECATED - nginx-ingress
-
-This chart is deprecated as we have moved to the upstream repo [ingress-nginx](https://github.com/kubernetes/ingress-nginx)
-The chart source can be found here: https://github.com/kubernetes/ingress-nginx/tree/master/charts/ingress-nginx
-
-[nginx-ingress](https://github.com/kubernetes/ingress-nginx) is an Ingress controller that uses ConfigMap to store the nginx configuration.
-
-To use, add the `kubernetes.io/ingress.class: nginx` annotation to your Ingress resources.
-
 ## TL;DR;
 
 ```console
