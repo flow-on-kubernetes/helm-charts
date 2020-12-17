@@ -1,0 +1,115 @@
+apiVersion: v1
+entries:
+  mariadb:
+  - apiVersion: v1
+    appVersion: 10.3.20
+    created: "2020-12-17T18:28:16.733996+05:30"
+    description: Fast, reliable, scalable, and easy to use open-source relational
+      database system. MariaDB Server is intended for mission-critical, heavy-load
+      production systems as well as for embedding into mass-deployed software. Highly
+      available MariaDB cluster.
+    digest: 5cc7ab25a9336e2f14cd35de0adfb67cb7c0434db455dba2e564126ee31b4026
+    home: https://mariadb.org
+    icon: https://bitnami.com/assets/stacks/mariadb/img/mariadb-stack-220x234.png
+    keywords:
+    - mariadb
+    - mysql
+    - database
+    - sql
+    - prometheus
+    maintainers:
+    - email: containers@bitnami.com
+      name: Bitnami
+    name: mariadb
+    sources:
+    - https://github.com/bitnami/bitnami-docker-mariadb
+    - https://github.com/prometheus/mysqld_exporter
+    urls:
+    - mariadb-7.0.1.tgz
+    version: 7.0.1
+  mysql:
+  - apiVersion: v1
+    appVersion: 5.7.30
+    created: "2020-12-17T18:28:16.737586+05:30"
+    deprecated: true
+    description: DEPRECATED - Fast, reliable, scalable, and easy to use open-source
+      relational database system.
+    digest: 88ed64fc5b148d630b004f80311da2468bc91262521815fedf2ea289943441f5
+    home: https://www.mysql.com/
+    icon: https://www.mysql.com/common/logos/logo-mysql-170x115.png
+    keywords:
+    - mysql
+    - database
+    - sql
+    name: mysql
+    sources:
+    - https://github.com/kubernetes/charts
+    - https://github.com/docker-library/mysql
+    urls:
+    - mysql-1.6.9.tgz
+    version: 1.6.9
+  nginx-ingress:
+  - apiVersion: v1
+    appVersion: v0.34.1
+    created: "2020-12-17T18:28:16.743952+05:30"
+    deprecated: true
+    description: DEPRECATED! An nginx Ingress controller that uses ConfigMap to store
+      the nginx configuration.
+    digest: 55f01669fa96ffb07d51401b7e5d0b5b62be1d65dc1cae5a8e15d37ea03e83eb
+    home: https://github.com/kubernetes/ingress-nginx
+    icon: https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Nginx_logo.svg/500px-Nginx_logo.svg.png
+    keywords:
+    - ingress
+    - nginx
+    kubeVersion: '>=1.10.0-0'
+    name: nginx-ingress
+    sources:
+    - https://github.com/kubernetes/ingress-nginx
+    urls:
+    - nginx-ingress-1.41.3.tgz
+    version: 1.41.3
+  - apiVersion: v1
+    appVersion: 0.26.1
+    created: "2020-12-17T18:28:16.739997+05:30"
+    description: An nginx Ingress controller that uses ConfigMap to store the nginx
+      configuration.
+    digest: a618a973d0339dd0a3025dab24915481bed272634359669eb70f1214e625edd1
+    home: https://github.com/kubernetes/ingress-nginx
+    icon: https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Nginx_logo.svg/500px-Nginx_logo.svg.png
+    keywords:
+    - ingress
+    - nginx
+    kubeVersion: '>=1.10.0-0'
+    maintainers:
+    - name: ChiefAlexander
+    - email: Trevor.G.Wood@gmail.com
+      name: taharah
+    name: nginx-ingress
+    sources:
+    - https://github.com/kubernetes/ingress-nginx
+    urls:
+    - nginx-ingress-1.25.0.tgz
+    version: 1.25.0
+  zookeeper:
+  - apiVersion: v1
+    appVersion: 3.5.5
+    created: "2020-12-17T18:28:16.745672+05:30"
+    description: Centralized service for maintaining configuration information, naming,
+      providing distributed synchronization, and providing group services.
+    digest: 89d20ad44d24cd123c505a3a88705f51deb8442821f1bf752f236b9553071ed8
+    home: https://zookeeper.apache.org/
+    icon: https://zookeeper.apache.org/images/zookeeper_small.gif
+    kubeVersion: ^1.10.0-0
+    maintainers:
+    - email: lachlan.evenson@microsoft.com
+      name: lachie83
+    - email: owensk@google.com
+      name: kow3ns
+    name: zookeeper
+    sources:
+    - https://github.com/apache/zookeeper
+    - https://github.com/kubernetes/contrib/tree/master/statefulsets/zookeeper
+    urls:
+    - zookeeper-2.1.1.tgz
+    version: 2.1.1
+generated: "2020-12-17T18:28:16.728967+05:30"
